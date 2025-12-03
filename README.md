@@ -3,7 +3,7 @@ This stand alone program is developed for Mass flow controller (GMC1200) for gas
 1) The system (e.g. PC or laptop) has to be connected via USB to RS232 adapter (FTDI) with the flow controller (GMC1200). Normally, both RS232 and GMC1200 have male connectors, in this case connection can be made directly with jumper wires in male pin no 2,3,5 (see male DB9-attached image) with the corresponding pins (no cross connection needed between Tx and Rx) of flow controller.
 <img width="1010" height="358" alt="RS-232_DE-9_Connector_Pinouts" src="https://github.com/user-attachments/assets/24bcb0da-279a-4117-a27c-4e526c2d967a" />
 
-2) When appropriate connector is pluged into the system (e.g. PC), the active COM port can viewed from "Device Manager".
+2) When appropriate connector is pluged into the system (e.g. PC), the active COM port can be viewed from "Device Manager".
 <img width="502" height="557" alt="Screenshot 2025-12-03 201614" src="https://github.com/user-attachments/assets/f7a1ee66-214a-4c5c-abe2-3f8c25b0ca62" />
 
 3) From the flow controller, control mode has to be changed to RS232 by MENU->Control Mode->RS232->Ent.
