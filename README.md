@@ -9,11 +9,11 @@ This stand alone program is developed for Mass flow controller (GMC1200) for gas
 3) From the flow controller, control mode has to be changed to RS232 by MENU->Control Mode->RS232->Ent.
 
 4) There are 2 python files, one for two channel flow and another for multichannel flow control, they can be run directly with python. Otherwise, after the python files are downloaded or copied in local drive (e.g. C:\Downloads) the following command has to be given in Command Prompt to get windows executable program,
-   a) cd "C:\download_folder"
+   a) cd "C:\download_folder"/n
    b) pyinstaller --noconfirm --windowed --onefile --icon=NONE "gmc1200_gui_4 channel.py"
    c) the executable program can be found in download_folder/dist
 
-5) After selecting appropriate COM port and Baud rate (9600 by default), instruction can be done with the GMC1200
+5) After selecting appropriate COM port and Baud rate (9600 by default), commands can be given to the GMC1200
    a) With "gmc1200_gui_2 channel", total gas flow rate (carrier gas+ target gas) and concentration of target gas (e.g. 2% = 20,000ppm) has to be selected. after that manual ppm value can be input, the system will automatically calculate the flow rate according to total flow rate. Flow sequence can be given
    b) Similarly "gmc1200_gui_4 channel" can be used to control maximum 4 channel simultaneously with manual and automatic sequence.
 <img width="1907" height="1020" alt="Screenshot 2025-12-03 201011" src="https://github.com/user-attachments/assets/400fe05c-2f1f-422f-b756-21c47ec390c9" />
