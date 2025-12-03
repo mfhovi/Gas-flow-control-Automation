@@ -15,6 +15,6 @@ This stand alone program is developed for Mass flow controller (GMC1200) for gas
 
 5) After selecting appropriate COM port and Baud rate (9600 by default), commands can be given to the GMC1200 <br>
    a) With "gmc1200_gui_2 channel", total gas flow rate (carrier gas+ target gas) and concentration of target gas (e.g. 2% = 20,000ppm) has to be selected. after that manual ppm value can be input, the system will automatically calculate the flow rate according to total flow rate. Flow sequence can be given. <br>
-   b) Similarly "gmc1200_gui_4 channel" can be used to control maximum 4 channel simultaneously with manual and automatic sequence. <br>
 <img width="1907" height="1020" alt="Screenshot 2025-12-03 201011" src="https://github.com/user-attachments/assets/400fe05c-2f1f-422f-b756-21c47ec390c9" />
+   b) Similarly "gmc1200_gui_4 channel" can be used to control maximum 4 channel simultaneously with manual and automatic sequence. <br>
 <img width="1918" height="1017" alt="Screenshot 2025-12-03 200743" src="https://github.com/user-attachments/assets/20dd9734-17af-44c3-ac73-d7ab59eb11bb" />
